@@ -45,7 +45,7 @@ grep -rn "■" --include=*.html .
 | 고객 문의 처리 도구(사용 시) | `privacy.html`(제5조) — 쓰지 않으면 행을 지우세요 |
 | 국외 이전 연락처 (Google, RevenueCat) | `privacy.html`(제6조 표) |
 
-푸터는 모든 HTML 파일 맨 아래 `<footer class="site-footer">` 안에 같은 내용으로 들어 있어요. 값을 바꿀 때는 8개 HTML 파일(`s/index.html`, `404.html` 포함)을 모두 고쳐주세요.
+푸터는 모든 HTML 파일 맨 아래 `<footer class="site-footer">` 안에 있어요. 사업장 주소는 첫 화면(`index.html`) 푸터와 `support.html`의 운영자 정보에만 적고, 나머지 페이지 푸터는 "사업자 정보" 링크로 대신해요. 상호·대표·사업자등록번호·통신판매업 신고번호를 바꿀 때는 8개 HTML 파일(`s/index.html`, `404.html` 포함)을 모두 고쳐주세요.
 
 > 약관을 고치면 앱 안의 약관(`src/features/legal/docs.ts`)도 같은 문구로 맞춰야 해요. 지금은 두 곳의 본문이 완전히 같습니다.
 
