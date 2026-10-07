@@ -50,7 +50,7 @@
       <article class="legal" aria-label="개인정보 처리방침 전문">
 <p>카일로엔터테인먼트(이하 "회사")는 「개인정보 보호법」 제30조에 따라 정보주체의 개인정보를 보호하고 이와 관련한 고충을 신속하게 처리할 수 있도록 다음과 같이 개인정보 처리방침을 수립·공개합니다.</p>
 <section class="summary" aria-label="중요 내용 요약"><p><strong>이 처리방침에서 특히 중요한 내용 요약</strong></p>
-<ul><li>Lighter는 <strong>만 19세 이상</strong>만 가입할 수 있고, 가입 시 <strong>본인확인기관의 휴대전화 본인확인(PASS 등)</strong> 결과로 연령과 명의를 확인합니다. 주민등록번호는 수집하지 않습니다.</li><li>러닝 매칭과 안전 기능을 위해 <strong>위치정보</strong>를 처리합니다. 자세한 내용은 제7조와 별도의 「위치기반서비스 이용약관」에 있습니다.</li><li>신체·건강 정보(체중, 체지방률, 심박 등)는 <strong>민감정보</strong>로서 별도 동의를 받아 처리하며, 동의하지 않아도 기본 서비스는 이용할 수 있습니다.</li><li>서비스 운영에 Google Firebase 등을 이용하므로 개인정보가 <strong>국외로 이전</strong>됩니다. 자세한 내용은 제6조에 있습니다.</li></ul></section>
+<ul><li>Lighter는 <strong>만 19세 이상</strong>만 가입할 수 있고, 다른 회원과 만나는 번개 매칭을 처음 이용하기 전에 <strong>본인확인기관의 휴대전화 본인확인(PASS 등)</strong> 결과로 연령과 명의를 확인합니다. 주민등록번호는 수집하지 않습니다.</li><li>러닝 매칭과 안전 기능을 위해 <strong>위치정보</strong>를 처리합니다. 자세한 내용은 제7조와 별도의 「위치기반서비스 이용약관」에 있습니다.</li><li>신체·건강 정보(체중, 체지방률, 심박 등)는 <strong>민감정보</strong>로서 별도 동의를 받아 처리하며, 동의하지 않아도 기본 서비스는 이용할 수 있습니다.</li><li>서비스 운영에 Google Firebase 등을 이용하므로 개인정보가 <strong>국외로 이전</strong>됩니다. 자세한 내용은 제6조에 있습니다.</li></ul></section>
 <h2 id="art-1">제1조 (개인정보의 처리 목적)<a class="anchor" href="#art-1" aria-label="제1조 (개인정보의 처리 목적) 링크">#</a></h2>
 <p>회사는 다음의 목적으로 개인정보를 처리합니다. 처리 목적이 변경되는 경우에는 「개인정보 보호법」 제18조에 따라 별도의 동의를 받는 등 필요한 조치를 이행합니다.</p>
 <div class="table-wrap two"><table class="doc">
@@ -69,9 +69,14 @@
 <h3 id="art-2-1">1. 회원 가입 시<a class="anchor" href="#art-2-1" aria-label="1. 회원 가입 시 링크">#</a></h3>
 <div class="table-wrap two"><table class="doc">
 <thead><tr><th scope="col">구분</th><th scope="col">항목</th></tr></thead><tbody>
-<tr><td data-label="구분">필수</td><td data-label="항목">이메일 주소, 비밀번호(암호화 저장), 닉네임, 성별</td></tr>
-<tr><td data-label="구분">본인확인 결과(필수)</td><td data-label="항목">본인확인기관으로부터 전달받는 <strong>성인 여부(만 19세 이상 여부)</strong>, 연계정보(CI)·중복가입확인정보(DI), 본인확인 일시</td></tr>
+<tr><td data-label="구분">필수</td><td data-label="항목">이메일 주소, 비밀번호(암호화 저장, 이메일로 가입한 경우), 닉네임, 성별, 만 19세 이상 확인 여부</td></tr>
+<tr><td data-label="구분">Apple로 로그인하는 경우</td><td data-label="항목">Apple이 제공하는 이메일 주소(또는 Apple의 비공개 전달 주소), Apple 계정 식별자. 이름은 받지 않습니다</td></tr>
 <tr><td data-label="구분">선택</td><td data-label="항목">소속(학교·직장), 프로필 사진</td></tr>
+</tbody></table></div>
+<h3 id="art-2-1b">1-2. 번개 매칭을 처음 이용하기 전 (본인인증)<a class="anchor" href="#art-2-1b" aria-label="1-2. 번개 매칭을 처음 이용하기 전 (본인인증) 링크">#</a></h3>
+<div class="table-wrap two"><table class="doc">
+<thead><tr><th scope="col">구분</th><th scope="col">항목</th></tr></thead><tbody>
+<tr><td data-label="구분">본인확인 결과(필수)</td><td data-label="항목">본인확인기관으로부터 전달받는 <strong>성인 여부(만 19세 이상 여부)</strong>, 출생연도, 성별, 연계정보(CI)·중복가입확인정보(DI), 본인확인 일시</td></tr>
 </tbody></table></div>
 <ul><li>회사는 <strong>주민등록번호를 수집·보관하지 않습니다.</strong> 본인확인 과정에서 본인확인기관이 처리하는 정보는 해당 기관의 개인정보 처리방침이 적용됩니다.</li><li>회사는 본인확인 결과 중 서비스 제공에 필요한 최소 항목만 전달받아 보관합니다.</li></ul>
 <h3 id="art-2-2">2. 서비스 이용 과정에서 수집·생성되는 정보<a class="anchor" href="#art-2-2" aria-label="2. 서비스 이용 과정에서 수집·생성되는 정보 링크">#</a></h3>
